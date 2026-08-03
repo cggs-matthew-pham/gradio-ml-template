@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment (created automatically by the devcontainer)
+.venv/
+
+# Gradio
+flagged/
+gradio_cached_examples/
+
+# Model / cache downloads
+.cache/
+*.h5
+*.pt
+*.bin
+
+# OS/editor noise
+.DS_Store
+.vscode/settings.json
