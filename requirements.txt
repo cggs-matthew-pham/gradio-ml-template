@@ -1,3 +1,9 @@
 gradio>=4.0
 transformers>=4.40
 torch>=2.2
+tensorflow>=2.16
+tf-keras>=2.16
+numpy
+pillow
+librosa
+soundfile
