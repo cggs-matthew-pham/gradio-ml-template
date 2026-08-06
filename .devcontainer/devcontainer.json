@@ -2,7 +2,7 @@
   "name": "pattern-detectors-ml",
   "image": "mcr.microsoft.com/devcontainers/python:3.11",
 
-  "postCreateCommand": "python -m venv .venv && .venv/bin/pip install --upgrade pip && .venv/bin/pip install -r requirements.txt",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg && python -m venv .venv && .venv/bin/pip install --upgrade pip && .venv/bin/pip install -r requirements.txt",
 
   "customizations": {
     "vscode": {
@@ -17,6 +17,7 @@
   },
 
   "forwardPorts": [7860],
+
   "portsAttributes": {
     "7860": {
       "label": "Gradio app",
