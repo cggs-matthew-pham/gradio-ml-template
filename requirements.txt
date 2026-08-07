@@ -5,5 +5,3 @@ tensorflow>=2.16
 tf-keras>=2.16
 numpy
 pillow
-librosa
-soundfile
